@@ -10,7 +10,7 @@ function sendEmail() {
   Email.send({
     Host: "smtp.gmail.com",
     Username: "guys199421@gmail.com",
-    Password: "guys@199421",
+    Password: "password",
     To: 'guys199421@gmail.com',
     From: document.getElementById("email").value,
     Subject: "New contact form inquiry",
@@ -30,12 +30,10 @@ const wrapper = document.querySelector('.wrapper');
 const loginLink = document.querySelector('.login-link');
 const registerLink = document.querySelector('.register-link');
 const bthPopup = document.querySelector('.btn');
-const iconClose = document.querySelector('.icon-close');
 
 registerLink.addEventListener('click', () => wrapper.classList.add('active'));
 loginLink.addEventListener('click', () => wrapper.classList.remove('active'));
 bthPopup.addEventListener('click', () => wrapper.classList.add('active-popup'));
-iconClose.addEventListener('click', () => wrapper.classList.remove('active-popup'));
 
 //redirect to login.html page
 
