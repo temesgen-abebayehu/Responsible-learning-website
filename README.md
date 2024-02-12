@@ -1,7 +1,7 @@
 online learning website
 This is our first project on the website, which is the result of collaboration among the following group members.
 
-#Name                               # ID
+#Name  ---------------------------# ID
 
 1. Temesgen Abebayehu---------------ETS 1534/14
 2. Tesfamicael Almaw ---------------ETS 1544/14
