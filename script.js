@@ -38,5 +38,5 @@ bthPopup.addEventListener('click', () => wrapper.classList.add('active-popup'));
 //redirect to login.html page
 
 function loginpage(){
-  window.location.href="login.html";
+  window.location.href="/login.html";
 }

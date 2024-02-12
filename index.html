@@ -11,8 +11,6 @@
 
     <link rel="stylesheet" href="style.css">
 
-    <script src="script.js" defer></script>
-
 </head>
 
 <body>
@@ -21,9 +19,17 @@
             <img class="logo" src="ima/logo.jpeg" alt="logo">
             TG Acadamy
         </div>
+        
+        <div>
+            <form action="search.html" method="post" class="search">
+                <input class="input" type="text" name="search_box" required placeholder="search courses..."
+                    maxlength="100">
+                <button type="submit" class="fas fa-search  searchbtn "></button>
+            </form>
+        </div>
+
         <nav class="navigation">
             <a href="/index.html">HOME</a>
-            <a href="/cource.html">COURCE</a>
             <a href="/contact.html">CONTACT</a>
             <a href="/about.html">ABOUT US</a>
             <button class="btn" onclick="loginpage()">LOGIN</button>
@@ -34,7 +40,7 @@
 
     <!-- Home -->
 
-    <section id="home" class="home">
+    <section class="home">
         <h2>Enhance your future with TG Academy</h2>
         <p>TG Academy Explore the world of coding with our comprehensive online learning website.
             From beginner to advanced levels, our courses cover a wide range of programming languages
@@ -44,7 +50,7 @@
         </p>
         <div class="boten">
             <a href="#" class="blue">Learn More</a>
-            <a href="#" class="yellow">Visit Cource</a>
+            <a href="#course" class="yellow">Visit Cource</a>
         </div>
     </section>
 
@@ -81,14 +87,14 @@
                 <img src="ima/js.jpg" alt="">
                 <div class="details">
                     <span>Uploaded 21/10/23</span>
-                    <h6>JavaScript Beginners Course</h6>
+                    <h6>JavaScript Course</h6>
                     <div class="le-icon">
                         <i class="fa-solid fa-graduation-cap"></i>
                         <span>10 learners</span>
                     </div>
                     <div class="start-lear">
-                        <a class="white" href="#">More Info</a>
-                        <a class="green" href="#">Start laerning</a>
+                        <a class="white" href="/pdf file/js.pdf">Reference</a>
+                        <a class="green" href="/cource/javascript.html">Tutorial</a>
                     </div>
                 </div>
             </div>
@@ -96,14 +102,14 @@
                 <img src="ima/html.jpeg" alt="">
                 <div class="details">
                     <span>Updated 22/10/23</span>
-                    <h6>HTML Beginners Course</h6>
+                    <h6>HTML Course</h6>
                     <div class="le-icon">
                         <i class="fa-solid fa-graduation-cap"></i>
                         <span>12 learners</span>
                     </div>
                     <div class="start-lear">
-                        <a class="white" href="#">More Info</a>
-                        <a class="green" href="#">Start laerning</a>
+                        <a class="white" href="/pdf file/html.pdf">Reference</a>
+                        <a class="green" href="/cource/html.html">Tutorial</a>
                     </div>
                 </div>
             </div>
@@ -111,14 +117,14 @@
                 <img src="ima/css.jpeg" alt="">
                 <div class="details">
                     <span>Updated 21/10/23</span>
-                    <h6>CSS Beginners Course</h6>
+                    <h6>CSS Course</h6>
                     <div class="le-icon">
                         <i class="fa-solid fa-graduation-cap"></i>
                         <span>12 learners</span>
                     </div>
                     <div class="start-lear">
-                        <a class="white" href="#">More Info</a>
-                        <a class="green" href="#">Start laerning</a>
+                        <a class="white" href="/pdf file/css.pdf">Reference</a>
+                        <a class="green" href="/cource/css.html">Tutorial</a>
                     </div>
                 </div>
             </div>
@@ -126,14 +132,14 @@
                 <img src="ima/java.png" alt="">
                 <div class="details">
                     <span>Updated 21/10/23</span>
-                    <h6>Java Beginners Course</h6>
+                    <h6>Java Course</h6>
                     <div class="le-icon">
                         <i class="fa-solid fa-graduation-cap"></i>
                         <span>18 learners</span>
                     </div>
                     <div class="start-lear">
-                        <a class="white" href="#">More Info</a>
-                        <a class="green" href="#">Start laerning</a>
+                        <a class="white" href="/pdf file/Java OOP.pdf">Reference</a>
+                        <a class="green" href="/cource/java.html">Tutorial</a>
                     </div>
                 </div>
             </div>
@@ -141,14 +147,14 @@
                 <img src="ima/cpp.png" alt="">
                 <div class="details">
                     <span>Updated 21/10/23</span>
-                    <h6>C++ Beginners Course</h6>
+                    <h6>C++ Course</h6>
                     <div class="le-icon">
                         <i class="fa-solid fa-graduation-cap"></i>
                         <span>30 learners</span>
                     </div>
                     <div class="start-lear">
-                        <a class="white" href="#">More Info</a>
-                        <a class="green" href="#">Start laerning</a>
+                        <a class="white" href="/pdf file/C++ tutorial.pdf">Reference</a>
+                        <a class="green" href="/cource/cpp.html">Tutorial</a>
                     </div>
                 </div>
             </div>
@@ -156,20 +162,19 @@
                 <img src="ima/py.jpeg" alt="">
                 <div class="details">
                     <span>Updated 21/10/23</span>
-                    <h6>Python Beginners Course</h6>
+                    <h6>Python Course</h6>
                     <div class="le-icon">
                         <i class="fa-solid fa-graduation-cap"></i>
                         <span>35 learners</span>
                     </div>
                     <div class="start-lear">
-                        <a class="white" href="#">More Info</a>
-                        <a class="green" href="#">Start laerning</a>
+                        <a class="white" href="/pdf file/python distilles.pdf">Reference</a>
+                        <a class="green" href="/cource/python.html">Tutorial</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
 
     <!-- Reminder -->
 
@@ -186,17 +191,16 @@
     <footer>
         <div class="footer-base" id="footer-base">
             <div class="footer-col">
-                <a href="#">JavaScript</a>
-                <a href="#">java</a>
-                <a href="#">cpp</a>
-                <a href="#">Python</a>
-                <a href="#">HTML</a>
-                <a href="#">CSS</a>
+                <a href="/pdf file/js.pdf" target="_black">JavaScript</a>
+                <a href="/pdf file/Java OOP.pdf" target="_black">java</a>
+                <a href="/pdf file/C++ tutorial.pdf" target="_black">cpp</a>
+                <a href="/pdf file/python distilles.pdf" target="_black">Python</a>
+                <a href="/pdf file/html.pdf" target="_black">HTML</a>
+                <a href="/pdf file/css.pdf" target="_black">CSS</a>
             </div>
             <div class="footer-col">
                 <a href="/index.html">Home</a>
                 <a href="/contact.html">Contact</a>
-                <a href="/cource.html">Cource</a>
                 <a href="/about.html">About us</a>
                 <a href="#">News</a>
             </div>
@@ -215,7 +219,7 @@
 
     </footer>
 
-
+    <script src="script.js" defer></script>
 </body>
 
 </html>
