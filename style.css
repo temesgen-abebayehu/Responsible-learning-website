@@ -331,7 +331,7 @@ header i img {
 
 #reminderinfo {
     padding: 6vw 8vw;
-    background-image: url(ima/back5.jpg);
+    background-image: url(reminder-bg-alt.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -751,4 +751,9 @@ footer .footer-base .footer-col {
     object-fit: cover;
     border-radius: 10px;       
 }
-
+#nightModeLi img{
+    width: 20px;
+    height: auto;
+    cursor: pointer;
+    border-radius: 50%;
+}
