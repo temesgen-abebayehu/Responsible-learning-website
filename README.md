@@ -1,4 +1,4 @@
-# Responsive-learning-website
+online learning website
 This is our first project on the website, which is the result of collaboration among the following group members.
 #Name                               # ID
 
